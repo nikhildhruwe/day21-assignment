@@ -7,10 +7,7 @@ class EmpWage {
    public static final int totalWorkingDays=20;
    public static final int maxHrs=100;
 
-   public static void main(String[] args) {
-
-   System.out.println(" Welcome to Employeee Wage Computation ");
-
+   void EmpSalary() {
    //variables
    int empHrs=0;
    int empWage=0;
@@ -33,4 +30,11 @@ class EmpWage {
 
       System.out.println("Total Emp Wage = "+totalEmpWage);
    }
+
+   public static void main(String[] args) {
+
+         System.out.println(" Welcome to Employeee Wage Computation ");
+         EmpWage e = new EmpWage();
+         e.EmpSalary();
+      }
 }
